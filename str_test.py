@@ -1,0 +1,18 @@
+name = "andygulin"
+print(name)
+
+print(name.capitalize())
+print(name.lower())
+print(name.upper())
+print(name.startswith("a"))
+print(name.endswith("b"))
+print(name.find("y"))
+print(name.index("y"))
+print(name.replace("a", "A"))
+print("a" in name)
+print("a" not in name)
+print("hello " + name)
+print(name * 10)
+print(name[1])
+print(name[1:5])
+print("my name is %s" % (name))
