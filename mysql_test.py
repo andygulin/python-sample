@@ -26,7 +26,7 @@ print(cur.fetchone())
 print("=" * 50)
 
 rows = cur.execute("select * from user")
-for row in cur.fetchall() :
+for row in cur.fetchall():
     print(row[0])
     print(row[1])
     print(row[2])

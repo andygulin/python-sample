@@ -1,7 +1,7 @@
 dict1 = {
-        "name" : "aaa",
-        "age" : 11,
-        "address" : "shanghai"
+    "name": "aaa",
+    "age": 11,
+    "address": "shanghai"
 }
 
 print(dict1.keys())
